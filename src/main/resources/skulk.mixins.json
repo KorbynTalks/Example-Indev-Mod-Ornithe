@@ -1,13 +1,9 @@
 {
   "required": true,
-  "package": "me.korbyntalks.skulk.mixin",
+  "package": "me.myname.examplemod.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "SkulkMixin_GameRenderer",
-    "SkulkMixin_Minecraft",
-    "SkulkMixin_SoundManager",
-    "gui.SkulkMixin_AddConfigButton",
-    "gui.SkulkMixin_AddQuitGame"
+    "ExampleModMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,38 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "skulk",
+  "id": "examplemod",
   "version": "${version}",
-  "name": "Skulk",
-  "description": "a Mod for Indev 20100223 that fixes all kinds of bugs and annoyances, and add small things to improve your Indev experience. All changes are completely configurable.",
+  "name": "Example Mod",
+  "description": "a Mod for Indev 20100223 using Ornithe.",
   "authors": [
     "Creator and Maintainer",
     {
-      "name": "KorbynTalks",
-      "contact": {
-        "homepage": "https://korbyntalks.github.io/"
-      }
-    }
-  ],
-  "contributors": [
-    "Playtester",
-    {
-      "name": "ChepsGames"
+      "name": "My Awesome Name"
     }
   ],
   "contact": {
-    "homepage": "https://korbyntalks.github.io/",
-    "sources": "https://github.com/KorbynTalks/Skulk"
+    "homepage": "https://mymods.awesome.website/",
+    "sources": "https://github.com/myname/MyModsGithubRepository"
   },
   "entrypoints": {
     "main": [
-      "me.korbyntalks.skulk.Skulk"
+      "me.myname.examplemod.ExampleMod"
     ]
   },
   "mixins": [
     "skulk.mixins.json"
   ],
   "license": "Kicense Version 1",
-  "icon": "assets/skulk/Skulk.png",
+  "icon": "assets/exampleMod/mymodicon.png",
   "environment": "*",
   "depends": {
     "fabricloader": ">=0.17.3",
