@@ -22,7 +22,7 @@
   "mixins": [
     "examplemod.mixins.json"
   ],
-  "license": "Kicense Version 1",
+  "license": "none",
   "icon": "assets/exampleMod/mymodicon.png",
   "environment": "*",
   "depends": {
