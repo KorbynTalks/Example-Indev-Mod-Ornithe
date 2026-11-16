@@ -20,7 +20,7 @@
     ]
   },
   "mixins": [
-    "skulk.mixins.json"
+    "examplemod.mixins.json"
   ],
   "license": "Kicense Version 1",
   "icon": "assets/exampleMod/mymodicon.png",
